@@ -37,24 +37,24 @@
 
 .holder-services {
 
+  button {
+    font-size: 20px;
+    padding: 20px 40px;
+    letter-spacing: 3px;
+    border: solid 2px $color-nero;
+    border-radius: 0;
+    color: $color-nero;
+  }
+
   .active {
 
-    .general-btn {
+    .general-btn{
       background: transparent;
       color: $color-white;
       border: solid 2px $color-white;
     }
   }
-}
 
-.holder-services {
-
-  button {
-    font-size: 20px;
-    padding: 19px 20px;
-    letter-spacing: 3px;
-    border: solid 2px $color-nero;
-  }
   .card {
 
     &:hover {
@@ -64,15 +64,6 @@
         color: $color-white;
         border: solid 2px $color-white;
       }
-    }
-  }
-
-  .active {
-
-    .general-btn {
-      background: transparent;
-      color: $color-white;
-      border: solid 2px $color-white;
     }
   }
 }

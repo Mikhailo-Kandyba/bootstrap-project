@@ -100,23 +100,20 @@ button {
     background: transparent;
     border: solid 3px #fff; }
 
-.holder-services .active .general-btn {
-  background: transparent;
-  color: #fff;
-  border: solid 2px #fff; }
-
 .holder-services button {
   font-size: 20px;
-  padding: 19px 20px;
+  padding: 20px 40px;
   letter-spacing: 3px;
-  border: solid 2px #212121; }
+  border: solid 2px #212121;
+  border-radius: 0;
+  color: #212121; }
 
-.holder-services .card:hover .general-btn {
+.holder-services .active .general-btn {
   background: transparent;
   color: #fff;
   border: solid 2px #fff; }
 
-.holder-services .active .general-btn {
+.holder-services .card:hover .general-btn {
   background: transparent;
   color: #fff;
   border: solid 2px #fff; }
