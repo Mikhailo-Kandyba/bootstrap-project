@@ -14,24 +14,20 @@
   }
 }
 
-.menu-navigation {
+.nav {
   margin-right: 22px;
 
-  ul {
-    display: flex;
+  .nav-item {
+    margin: 0 0 0 32px;
 
-    li {
-      margin: 0 0 0 32px;
-
-
-      a {
-        font-size: 21px;
-        line-height: 22px;
-        color: $color-nero;
-        letter-spacing: 3px;
-      }
+    .nav-link {
+      font-size: 21px;
+      line-height: 22px;
+      color: $color-nero;
+      letter-spacing: 3px;
     }
   }
+
 }
 
 .mobile-menu-navigation {

@@ -179,17 +179,15 @@ button {
     line-height: 22px;
     color: #212121; }
 
-.menu-navigation {
+.nav {
   margin-right: 22px; }
-  .menu-navigation ul {
-    display: flex; }
-    .menu-navigation ul li {
-      margin: 0 0 0 32px; }
-      .menu-navigation ul li a {
-        font-size: 21px;
-        line-height: 22px;
-        color: #212121;
-        letter-spacing: 3px; }
+  .nav .nav-item {
+    margin: 0 0 0 32px; }
+    .nav .nav-item .nav-link {
+      font-size: 21px;
+      line-height: 22px;
+      color: #212121;
+      letter-spacing: 3px; }
 
 .mobile-menu-navigation {
   display: none; }
